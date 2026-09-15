@@ -9,7 +9,7 @@ const crypto = require("crypto");
 const app = express();
 
 app.use(cors({
-  origin: "https://ecoll-ins.onrender.com"
+  origin: "https://ecocashlo-an.onrender.com"
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
